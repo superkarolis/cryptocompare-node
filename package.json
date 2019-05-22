@@ -1,8 +1,11 @@
 {
-  "name": "cryptocompare",
+  "name": "cryptocompare-node",
   "description": "CryptoCompare JavaScript API",
   "version": "1.0.0",
-  "author": "JP Richardson <jprichardson@gmail.com>",
+  "contributors": [
+    "JP Richardson <jprichardson@gmail.com>",
+    "Karolis Ramanauskas <hello@karolisram.com>"
+  ]
   "bugs": {
     "url": "https://github.com/exodusmovement/cryptocompare/issues"
   },
