@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-cryptocompare",
+  "name": "@karolisram/isomorphic-cryptocompare",
   "description": "CryptoCompare JavaScript API",
   "version": "1.0.0",
   "contributors": [
