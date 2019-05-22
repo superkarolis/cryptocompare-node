@@ -1,5 +1,5 @@
 {
-  "name": "cryptocompare-node",
+  "name": "isomorphic-cryptocompare",
   "description": "CryptoCompare JavaScript API",
   "version": "1.0.0",
   "contributors": [
@@ -7,7 +7,7 @@
     "Karolis Ramanauskas <hello@karolisram.com>"
   ],
   "bugs": {
-    "url": "https://github.com/exodusmovement/cryptocompare/issues"
+    "url": "https://github.com/superkarolis/isomorphic-cryptocompare/issues"
   },
   "devDependencies": {
     "node-fetch": "^1.5.3",
@@ -15,7 +15,7 @@
     "tap-spec": "^5.0.0",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/exodusmovement/cryptocompare",
+  "homepage": "https://github.com/superkarolis/isomorphic-cryptocompare",
   "keywords": [
     "api",
     "bitcoin",
@@ -27,7 +27,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/exodusmovement/cryptocompare.git"
+    "url": "https://github.com/superkarolis/isomorphic-cryptocompare.git"
   },
   "scripts": {
     "lint": "standard",
