@@ -10,7 +10,6 @@
     "url": "https://github.com/superkarolis/isomorphic-cryptocompare/issues"
   },
   "devDependencies": {
-    "node-fetch": "^1.5.3",
     "standard": "9.x",
     "tap-spec": "^5.0.0",
     "tape": "^4.0.0"
@@ -35,7 +34,7 @@
     "unit": "tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0"
+    "node-fetch": "^2.6.0"
   },
   "directories": {
     "test": "test"

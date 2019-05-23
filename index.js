@@ -1,6 +1,6 @@
 'use strict'
 
-const fetch = require('isomorphic-unfetch')
+const fetch = require('node-fetch')
 const baseUrl = 'https://min-api.cryptocompare.com/data/'
 let apiKey = ''
 
