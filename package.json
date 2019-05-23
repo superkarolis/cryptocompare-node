@@ -1,7 +1,7 @@
 {
   "name": "@karolisram/isomorphic-cryptocompare",
   "description": "CryptoCompare JavaScript API",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "contributors": [
     "JP Richardson <jprichardson@gmail.com>",
     "Karolis Ramanauskas <hello@karolisram.com>"
