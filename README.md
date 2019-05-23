@@ -14,7 +14,11 @@ cryptocompare
 Install
 -------
 
-    npm install --save isomorphic-cryptocompare
+    npm install --save @karolisram/isomorphic-cryptocompare
+
+or
+
+    yarn add @karolisram/isomorphic-cryptocompare
 
 
 Usage
