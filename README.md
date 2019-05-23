@@ -6,9 +6,7 @@ cryptocompare
 [![standard][standard-image]][standard-url]
 
 [npm-image]: https://img.shields.io/npm/v/cryptocompare.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/cryptocompare
-[travis-image]: https://img.shields.io/travis/ExodusMovement/cryptocompare.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ExodusMovement/cryptocompare
+[npm-url]: https://www.npmjs.com/package/isomorphic-cryptocompare
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: http://npm.im/standard
 
@@ -17,17 +15,13 @@ cryptocompare
 Install
 -------
 
-    npm install --save cryptocompare
+    npm install --save isomorphic-cryptocompare
 
 
 Usage
 -----
 
-**Note:** cryptocompare depends on [`fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch) being defined globally.
-
-- If you are using this in electron, it should work without any configuration.
-- If you are using this in Node.js, you will need to use [`node-fetch`](https://www.npmjs.com/package/node-fetch).
-- The package works without an API key but the IP limits will slowly be reduced over time, to create an API key just go to https://www.cryptocompare.com/cryptopian/api-keys and make sure you give it the "Read All Price Streaming and Polling Endpoints" permission
+The package works without an API key but the IP limits will slowly be reduced over time, to create an API key just go to https://www.cryptocompare.com/cryptopian/api-keys and make sure you give it the "Read All Price Streaming and Polling Endpoints" permission
 
   **Example:**
   ```js

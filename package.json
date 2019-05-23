@@ -1,7 +1,7 @@
 {
   "name": "@karolisram/isomorphic-cryptocompare",
   "description": "CryptoCompare JavaScript API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "JP Richardson <jprichardson@gmail.com>",
     "Karolis Ramanauskas <hello@karolisram.com>"
@@ -27,7 +27,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/superkarolis/isomorphic-cryptocompare.git"
+    "url": "git+https://github.com/superkarolis/isomorphic-cryptocompare.git"
   },
   "scripts": {
     "lint": "standard",
@@ -36,5 +36,9 @@
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
