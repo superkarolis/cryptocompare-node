@@ -1,6 +1,6 @@
 'use strict'
 
-const fetch = require('node-fetch')
+const axios = require('axios')
 const baseUrl = 'https://min-api.cryptocompare.com/data/'
 let apiKey = ''
 
@@ -17,17 +17,11 @@ function fetchJSON (url) {
     }
     url += apiKey
   }
-  return fetch(url)
-    .then(res => {
-      if (!res.ok) {
-        throw new Error(`${res.status} ${res.statusText}`)
-      }
-      return res.json()
-    })
-    .then(body => {
-      if (body.Response === 'Error') throw body.Message
-      return body
-    })
+  return axios.get(url)
+    .then(res => res.data)
+    .catch(error => {
+      throw new Error(error.message)
+    });
 }
 
 function coinList () {
